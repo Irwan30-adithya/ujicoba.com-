@@ -1,0 +1,97 @@
+*,
+html, 
+body {
+    margin: 0;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.top {
+    background-image: url('motogpfree3.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    
+
+    nav {
+        font-size: 10px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    ul {
+        display: flex;
+        gap: 2px;
+        list-style: none;
+        
+    }
+}
+
+h1 {
+    font-family: Fjalla One;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke: .5px;
+    -webkit-text-stroke-color: aliceblue;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.mid {
+    background-image: url('motogpfree4.jpg');
+}
+
+.content-container {
+    background-color: rgba(198, 198, 198, 0.427);
+}
+
+p, h2, h3, li, img {
+    margin-right: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.li-content {
+    margin-right: 100px;
+}
+
+span {
+    font-weight: bold;
+}
+
+footer {
+    background-image: url('motogpfree3.jpg');
+    background-position: center;
+    background-repeat: repeat;
+}
+
+@media (max-width= 360px) {
+    p, h2, h3, .li-content, img {
+    margin-right: 300px;
+    margin-left: 10px;
+    margin-top: 15px;
+    }
+
+    image {
+        width: 50px;
+    }
+
+    h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+@media (min-width= 361px) {
+    .top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+}
